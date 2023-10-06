@@ -1,0 +1,506 @@
+{
+  "sections": {
+    "zp-product-header-content": {
+      "type": "product-header-content-zipifypages",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "2f7e9db7-d9cb-45ae-8ffd-da2ca5ae83a3": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "b1e71bde-8a47-4c23-9e51-bdc69a864645": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Description",
+            "content": "{{ product.description }}"
+          }
+        },
+        "5d73c061-1d2f-4e77-8333-9a656abde615": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Supplement Facts",
+            "content": "{% if product.metafields.custom.supplement_facts != blank %}\n\n<center>{{ product.metafields.custom.supplement_facts | image_url: width:600 | image_tag }}<\/center>\n\n{% endif %}"
+          }
+        },
+        "4fc0d083-42b9-44dd-892c-96e31392d43f": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Shipping & Guarantee",
+            "content": "<p>\nWhen will my order ship?\nOnce an order is placed we typically ship within 1 business day. Shipping speed can be selected during checkout. \n\n30-DAY MONEYBACK GUARANTEE:\nWe stand behind our product.\n\n100% refund valid for 30 Days.\n\nNo questions asked.\n\nSimply contact us at Contact@CerusPerformance.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "loox-rating",
+        "price",
+        "rating",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "payment_terms",
+        "2f7e9db7-d9cb-45ae-8ffd-da2ca5ae83a3",
+        "b1e71bde-8a47-4c23-9e51-bdc69a864645",
+        "5d73c061-1d2f-4e77-8333-9a656abde615",
+        "4fc0d083-42b9-44dd-892c-96e31392d43f"
+      ],
+      "custom_css": [
+        ".money-back {display: block; text-align: center; margin-top: -20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "139fe80c-2d3e-4ed4-8d0b-4132e695c282": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16132757455002__139fe80c-2d3e-4ed4-8d0b-4132e695c282-168825970501e6c286-1": {
+          "type": "heading",
+          "settings": {
+            "text": "BENEFITS",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16132757455002__139fe80c-2d3e-4ed4-8d0b-4132e695c282-168825970501e6c286-1"
+      ],
+      "custom_css": [
+        ".h2 {font-style: italic !important;}",
+        "div {--context-section-spacing-block-end: unset; padding: 15px 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "4c039958-c1c7-4bfe-9cc2-175f474d9f57": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16132757455002__4c039958-c1c7-4bfe-9cc2-175f474d9f57-16882598277ad8e50b-0": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.benefits_image.value }}",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "{% if product.metafields.custom.benefits_sub_header_1 != blank %}\n<h4 class=\"benefits-callout\">{{product.metafields.custom.benefits_sub_header_1}}\n<\/h4>{% endif %}\n\n{% if product.metafields.custom.benefits_paragraph_1 != blank %}\n<p class=\"benefits-callout\">{{product.metafields.custom.benefits_paragraph_1}}\n<\/p>{% endif %}\n\n{% if product.metafields.custom.benefits_sub_header_2 != blank %}\n<h4 class=\"benefits-callout\">{{product.metafields.custom.benefits_sub_header_2}}\n<\/h4>{% endif %}\n\n{% if product.metafields.custom.benefits_paragraph_2 != blank %}\n<p class=\"benefits-callout\">{{product.metafields.custom.benefits_paragraph_2}}\n<\/p>{% endif %}\n\n{% if product.metafields.custom.benefits_sub_header_3 != blank %}\n<h4 class=\"benefits-callout\">{{product.metafields.custom.benefits_sub_header_3}}\n<\/h4>{% endif %}\n\n{% if product.metafields.custom.benefits_paragraph_3 != blank %}\n<p class=\"benefits-callout\">{{product.metafields.custom.benefits_paragraph_3}}\n<\/p>{% endif %}\n\n{% if product.metafields.custom.benefits_sub_header_4 != blank %}\n<h4 class=\"benefits-callout\">{{product.metafields.custom.benefits_sub_header_4}}\n<\/h4>{% endif %}\n\n{% if product.metafields.custom.benefits_paragraph_4 != blank %}\n<p class=\"benefits-callout\">{{product.metafields.custom.benefits_paragraph_4}}\n<\/p>{% endif %}\n\n<style>\n.benefits-callout {\ntext-align: left;\n}\n<\/style>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1e1e1e",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16132757455002__4c039958-c1c7-4bfe-9cc2-175f474d9f57-16882598277ad8e50b-0"
+      ],
+      "custom_css": [
+        "h3 {font-style: italic; padding-bottom: 40px; font-size: 1.65rem; margin: 0px 0px auto; text-align: center;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "small"
+      }
+    },
+    "a6aa1825-04c7-4a7d-80b5-14a9bebbaefa": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16132757455002__a6aa1825-04c7-4a7d-80b5-14a9bebbaefa-1688260914362487c5-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "{{ product.metafields.custom.icon1.value }}",
+            "logo_width": 120,
+            "link": "",
+            "title": "{{ product.metafields.custom.value_1.value }}"
+          }
+        },
+        "template--16132757455002__a6aa1825-04c7-4a7d-80b5-14a9bebbaefa-1688260914362487c5-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "{{ product.metafields.custom.icon2.value }}",
+            "logo_width": 120,
+            "link": "",
+            "title": "{{ product.metafields.custom.value_2.value }}"
+          }
+        },
+        "template--16132757455002__a6aa1825-04c7-4a7d-80b5-14a9bebbaefa-1688260914362487c5-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "{{ product.metafields.custom.icon3.value }}",
+            "logo_width": 120,
+            "link": "",
+            "title": "{{ product.metafields.custom.value_3.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--16132757455002__a6aa1825-04c7-4a7d-80b5-14a9bebbaefa-1688260914362487c5-0",
+        "template--16132757455002__a6aa1825-04c7-4a7d-80b5-14a9bebbaefa-1688260914362487c5-1",
+        "template--16132757455002__a6aa1825-04c7-4a7d-80b5-14a9bebbaefa-1688260914362487c5-2"
+      ],
+      "custom_css": [
+        ".bg-secondary {background: unset;}",
+        ".logo-list__item {flex-wrap: wrap; margin: auto; justify-content: center; align-content: center;}",
+        ".h6 {text-align: center; text-transform: uppercase; font-style: italic; padding-top: 15px;}",
+        "div {margin: -20px auto auto;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "",
+        "content": "",
+        "text_alignment": "center",
+        "items_per_row": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "2483dd06-b17d-4d1d-99dc-f085552f7464": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "div {margin-top: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<h2 class=\"h2\" style=\"font-style: italic;\">INGREDIENTS<\/h2>\n<div class=\"two-col-wrap\">\n<div class=\"accordion-wrap\">\n<details {% if id %}id=\"{{ id | escape }}\"{% endif %} class=\"{{ class }} accordion {% if size %}accordion--{{ size }}{% endif %} group\" aria-expanded=\"{% if open %}true{% else %}false{% endif %}\" is=\"accordion-disclosure\" {% if open %}open{% endif %} {{ block.shopify_attributes }}>\n  <summary>\n    {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}\n    <div class=\"accordion__toggle bold\">\n      {%- if icon -%}\n        <div class=\"text-with-icon\">\n          {%- render 'icon' with icon -%}\n          <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{- title | escape -}}<\/span>\n        <\/div>\n      {%- else -%}\n        <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{product.metafields.custom.ingredient_1}}<\/span>\n      {%- endif -%}\n\n      <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">{%- render 'icon' with 'chevron-bottom-small' -%}<\/span>\n    <\/div>\n  <\/summary>\n\n  <div class=\"accordion__content\">\n    <p>{{product.metafields.custom.ingredient_1_description}}<\/p>\n  <\/div>\n<\/details>\n\n<details {% if id %}id=\"{{ id | escape }}\"{% endif %} class=\"{{ class }} accordion {% if size %}accordion--{{ size }}{% endif %} group\" aria-expanded=\"{% if open %}true{% else %}false{% endif %}\" is=\"accordion-disclosure\" {% if open %}open{% endif %} {{ block.shopify_attributes }}>\n  <summary>\n    {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}\n    <div class=\"accordion__toggle bold\">\n      {%- if icon -%}\n        <div class=\"text-with-icon\">\n          {%- render 'icon' with icon -%}\n          <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{- title | escape -}}<\/span>\n        <\/div>\n      {%- else -%}\n        <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{product.metafields.custom.ingredient_2}}<\/span>\n      {%- endif -%}\n\n      <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">{%- render 'icon' with 'chevron-bottom-small' -%}<\/span>\n    <\/div>\n  <\/summary>\n\n  <div class=\"accordion__content\">\n       <p>{{product.metafields.custom.ingredient_2_description}}<\/p>\n  <\/div>\n<\/details>\n\n<details {% if id %}id=\"{{ id | escape }}\"{% endif %} class=\"{{ class }} accordion {% if size %}accordion--{{ size }}{% endif %} group\" aria-expanded=\"{% if open %}true{% else %}false{% endif %}\" is=\"accordion-disclosure\" {% if open %}open{% endif %} {{ block.shopify_attributes }}>\n  <summary>\n    {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}\n    <div class=\"accordion__toggle bold\">\n      {%- if icon -%}\n        <div class=\"text-with-icon\">\n          {%- render 'icon' with icon -%}\n          <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{- title | escape -}}<\/span>\n        <\/div>\n      {%- else -%}\n        <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{product.metafields.custom.ingredient_3}}<\/span>\n      {%- endif -%}\n\n      <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">{%- render 'icon' with 'chevron-bottom-small' -%}<\/span>\n    <\/div>\n  <\/summary>\n\n  <div class=\"accordion__content\">\n       <p>{{product.metafields.custom.ingredient_3_description}}<\/p>\n  <\/div>\n<\/details>\n\n<details {% if id %}id=\"{{ id | escape }}\"{% endif %} class=\"{{ class }} accordion {% if size %}accordion--{{ size }}{% endif %} group\" aria-expanded=\"{% if open %}true{% else %}false{% endif %}\" is=\"accordion-disclosure\" {% if open %}open{% endif %} {{ block.shopify_attributes }}>\n  <summary>\n    {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}\n    <div class=\"accordion__toggle bold\">\n      {%- if icon -%}\n        <div class=\"text-with-icon\">\n          {%- render 'icon' with icon -%}\n          <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{- title | escape -}}<\/span>\n        <\/div>\n      {%- else -%}\n        <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{product.metafields.custom.ingredient_4}}<\/span>\n      {%- endif -%}\n\n      <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">{%- render 'icon' with 'chevron-bottom-small' -%}<\/span>\n    <\/div>\n  <\/summary>\n\n  <div class=\"accordion__content\">\n       <p>{{product.metafields.custom.ingredient_4_description}}<\/p>\n  <\/div>\n<\/details>\n\n<details {% if id %}id=\"{{ id | escape }}\"{% endif %} class=\"{{ class }} accordion {% if size %}accordion--{{ size }}{% endif %} group\" aria-expanded=\"{% if open %}true{% else %}false{% endif %}\" is=\"accordion-disclosure\" {% if open %}open{% endif %} {{ block.shopify_attributes }}>\n  <summary>\n    {%- comment -%}iOS 14 does not support flex on the summary itself, so we have to use this extra div{%- endcomment -%}\n    <div class=\"accordion__toggle bold\">\n      {%- if icon -%}\n        <div class=\"text-with-icon\">\n          {%- render 'icon' with icon -%}\n          <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{- title | escape -}}<\/span>\n        <\/div>\n      {%- else -%}\n        <span {% if size == 'lg' %}class=\"h6\"{% endif %}>{{product.metafields.custom.ingredient_5}}<\/span>\n      {%- endif -%}\n\n      <span class=\"circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate\">{%- render 'icon' with 'chevron-bottom-small' -%}<\/span>\n    <\/div>\n  <\/summary>\n\n <div class=\"accordion__content\">\n       <p>{{product.metafields.custom.ingredient_5_description}}<\/p>\n  <\/div>\n<\/details>\n\n<\/div>\n\n{% if product.metafields.custom.ingredients_image != blank %}\n<div class=\"image-wrap\">\n{{ product.metafields.custom.ingredients_image | image_url: width: 500 | image_tag}}\n<\/div>\n{% endif %}\n<\/div>\n\n<style>\n\n@media only screen and (max-width: 600px) {\n.two-col-wrap {\nflex-wrap: wrap;\n}\n\n.accordion-wrap {\nflex: 100%;\n}\n\n.accordion-content {\nflex: 100%;\n}\n\n.image-wrap {\nflex: 100%;\n}\n}\n\n.two-col-wrap {\n  display: flex;\nflex-direction: row-reverse;\nmargin: auto;\njustify-content: center;\nalign-items: center;\n}\n\n.accordion-wrap {\nwidth: 50%;\n  margin: 5px;\n  padding: 5px;\n}\n\n.accordion-content {\nwidth: 50%;\n  margin: 5px;\n  padding: 5px;\ntext-align: left;\ndisplay: flex;\n}\n\n.image-wrap {\nwidth: 50%;\n  margin: 5px;\n  padding: 5px;\nborder-radius: 12px;\n}\n\nh2 {\n  font-style: italic;\n  padding-bottom: 20px;\n  font-size: 1.65rem;\n  margin: 0px 10px auto;\npadding-top: 20px;\n  text-align: center;\n}\n\nspan {\ntext-transform: uppercase;\n}\n<\/style>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "bf1a7bee-c10b-4270-8de0-88e90c50a82a": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--16132757455002__bf1a7bee-c10b-4270-8de0-88e90c50a82a-16882694114bb7c27f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2020-04-15_at_13.29.11.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "{% if product.metafields.custom.informed_choice_paragraph != blank %}\n<p style=\"text-align: left;\">{{product.metafields.custom.informed_choice_paragraph}}<\/p>\n{% endif %}\n\n<div class=\"check-boxes\">\n{% if product.metafields.custom.informed_choice_checkbox_1 != blank %}\n<label class=\"form-control-check\">\n  <input type=\"checkbox\" name=\"checkbox-checked\" checked \/>\n{{product.metafields.custom.informed_choice_checkbox_1}}\n<\/label>\n{% endif %}\n{% if product.metafields.custom.informed_choice_checkbox_2 != blank %}\n<label class=\"form-control-check\">\n  <input type=\"checkbox\" name=\"checkbox-checked\" checked \/>\n{{product.metafields.custom.informed_choice_checkbox_2}}\n<\/label>\n{% endif %}\n{% if product.metafields.custom.informed_choice_checkbox_1 != blank %}\n<label class=\"form-control-check\">\n  <input type=\"checkbox\" name=\"checkbox-checked\" checked \/>\n{{product.metafields.custom.informed_choice_checkbox_1}}\n<\/label>\n{% endif %}\n<div>\n\n<style>\n.check-boxes {\n  margin: 50px auto;\n}\n\n.form-control-check {\n  margin: 25px auto;\n  font-size: 1rem;\n  font-weight: bold;\n  line-height: 1.1;\ntext-transform: uppercase;\n  display: grid;\n  grid-template-columns: 1em auto;\n  gap: 0.5em;\ntext-align: start;\n    position: relative;\n}\n<\/style>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1e1e1e",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16132757455002__bf1a7bee-c10b-4270-8de0-88e90c50a82a-16882694114bb7c27f-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {display: none;}",
+        ".media-with-text::before {display: block; padding-bottom: 20px; font-size: 1.65rem; text-align: center; font-family: var(--heading-font-family); font-weight: var(--heading-font-weight); font-style: italic;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "1e139943-dac5-4bd1-aaaa-32784012e899": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "h3 {padding-bottom: 20px; padding-top: 0px; margin: 0px 0px auto; text-align: center;}",
+        ":is(th, td):first-child {padding-inline-start: 10px !important;}",
+        ":is(th, td):last-child {padding-inline-end: 10px !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!DOCTYPE html>\n<html>\n<head>\n<link rel=\"stylesheet\" href=\"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/font-awesome\/4.7.0\/css\/font-awesome.min.css\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n  width: 100%;\n  border: 1px solid #ddd;\nborder-radius: 10px;\n}\n\nspan.table-sub{\n  display: block;\n  padding-bottom: 20px;\n  font-size: 1rem;\n  text-align: center;\n  text-transform: lowercase;\n}\n\nth, td {\n  text-align: center;\n  padding: 16px;\n  padding-inline-start: unset !important;\n}\n\nth:first-child, td:first-child {\n  text-align: left;\n}\n\ntr:nth-child(even) {\n  background-color: #f2f2f2\n}\n\n.fa-check {\n  color: green;\n}\n\n.fa-remove {\n  color: red;\n}\n\n<\/style>\n<\/head>\n<body>\n\n<h3 class=\"h3\">Extreme Endurance vs The Competition<\/h2>\n\n<span class=\"table-sub\">When it's time to unleash your inner-Hercules and bounce back stronger than ever... It's very hard to beat the results you will feel with Extreme Endurance.<\/span>\n\n<table>\n  <tr style=\"background-color: #1E1E1E; color: white; border-radius: 10px;\">\n    <th style=\"width:50%\">Benefits<\/th>\n    <th>Extreme Endurance<\/th>\n    <th>Other Recovery Supplements<\/th>\n  <\/tr>\n  <tr>\n    <td>{{product.metafields.custom.comparison_table_1}}<\/td>\n    <td><i class=\"fa fa-remove\"><\/i><\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n  <\/tr>\n  <tr>\n    <td>{{product.metafields.custom.comparison_table_2}}<\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n  <\/tr>\n  <tr>\n    <td>{{product.metafields.custom.comparison_table_3}}<\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n  <\/tr>\n  <tr>\n    <td>{{product.metafields.custom.comparison_table_4}}<\/td>\n    <td><i class=\"fa fa-remove\"><\/i><\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n  <\/tr>\n  <tr>\n    <td>{{product.metafields.custom.comparison_table_4}}<\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n    <td><i class=\"fa fa-check\"><\/i><\/td>\n  <\/tr>\n<\/table>\n\n<\/body>\n<\/html>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "938291b0-0e8d-4998-8498-57ef031bb1a7": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--16132757455002__938291b0-0e8d-4998-8498-57ef031bb1a7-1688259803f2556a6a-0": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_header_1.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_1.value }}<\/p>"
+          }
+        },
+        "template--16132757455002__938291b0-0e8d-4998-8498-57ef031bb1a7-1688259803f2556a6a-1": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_header_2.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_2.value }}<\/p>"
+          }
+        },
+        "template--16132757455002__938291b0-0e8d-4998-8498-57ef031bb1a7-1688259803f2556a6a-2": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_header_3.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_3.value }}<\/p>"
+          }
+        },
+        "2a9075d6-f599-4c60-867a-0f2ff9a21b22": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_header_4.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_4.value }}<\/p>"
+          }
+        },
+        "0ee1eed4-7ad6-4484-b64a-b3b4827ba99e": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.faq_header_5.value }}",
+            "content": "<p>{{ product.metafields.custom.faq_answer_5.value }}<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16132757455002__938291b0-0e8d-4998-8498-57ef031bb1a7-1688259803f2556a6a-0",
+        "template--16132757455002__938291b0-0e8d-4998-8498-57ef031bb1a7-1688259803f2556a6a-1",
+        "template--16132757455002__938291b0-0e8d-4998-8498-57ef031bb1a7-1688259803f2556a6a-2",
+        "2a9075d6-f599-4c60-867a-0f2ff9a21b22",
+        "0ee1eed4-7ad6-4484-b64a-b3b4827ba99e"
+      ],
+      "custom_css": [
+        "div {padding-top: 20px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Have a question? We are here to help.",
+        "content": "<p>Check out the most common questions our customers asked. Still have questions? Contact our customer support.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 8,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 4,
+        "products": [
+          "cerus-flow",
+          "focus",
+          "rem",
+          "creatine-hydrate"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "zp-product-footer-content": {
+      "type": "product-footer-content-zipifypages",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "zp-product-header-content",
+    "main",
+    "139fe80c-2d3e-4ed4-8d0b-4132e695c282",
+    "4c039958-c1c7-4bfe-9cc2-175f474d9f57",
+    "a6aa1825-04c7-4a7d-80b5-14a9bebbaefa",
+    "2483dd06-b17d-4d1d-99dc-f085552f7464",
+    "bf1a7bee-c10b-4270-8de0-88e90c50a82a",
+    "1e139943-dac5-4bd1-aaaa-32784012e899",
+    "938291b0-0e8d-4998-8498-57ef031bb1a7",
+    "loox-product-reviews-app-section",
+    "related-products",
+    "zp-product-footer-content"
+  ]
+}

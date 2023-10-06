@@ -1,0 +1,555 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_b0fb46a4-dc5b-4c69-9240-e40da4d73031.png",
+            "mobile_image": "shopify:\/\/shop_images\/1_bad1291a-c833-4539-881a-4979a91a0eb3.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "DO MORE WORK WITHOUT THE JITTERS",
+            "title": "FLOW & FLOW PRO",
+            "heading_tag": "h1",
+            "button_text": "Shop Flow",
+            "button_link": "shopify:\/\/products\/cerus-flow",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "adcf1d7a-3fb9-405e-9308-d042daaa79a3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_8dffdfc5-1053-4a99-844a-44540a21d0aa.png",
+            "mobile_image": "shopify:\/\/shop_images\/2_dc042d3b-9aa8-4acb-80ce-769cec49aa87.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "FORMULATED FOR HYDRATION AND PERFORMANCE",
+            "title": "CREATINE + HYDRATE",
+            "heading_tag": "h1",
+            "button_text": "Shop Creatine",
+            "button_link": "shopify:\/\/products\/creatine-hydrate",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "679194e3-3227-4f2f-b657-f0ab7debc4e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero_Image_Desktop_REM_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/3_aa316382-79dd-4da4-ab72-176fd7e7b4f7.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "DEEPER SLEEP WITHOUT MELATONIN",
+            "title": "REM",
+            "heading_tag": "h1",
+            "button_text": "Shop REM",
+            "button_link": "shopify:\/\/products\/rem",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "adcf1d7a-3fb9-405e-9308-d042daaa79a3",
+        "679194e3-3227-4f2f-b657-f0ab7debc4e6"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "lg",
+        "controls_type": "outline_arrows",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "#1e1e1e",
+        "background_gradient": ""
+      }
+    },
+    "f5994332-ddbc-4469-a0c5-96a1f9dd3970": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16132757225626__f5994332-ddbc-4469-a0c5-96a1f9dd3970-16881567783efbfb6b-1": {
+          "type": "heading",
+          "settings": {
+            "text": "PRODUCTS ATHLETES CAN TRUST",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16132757225626__f5994332-ddbc-4469-a0c5-96a1f9dd3970-16881567783efbfb6b-1"
+      ],
+      "custom_css": [
+        ".h2 {font-style: italic !important;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "32317cfa-d104-492d-941e-35dbb1479c27": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "creatine-hydrate",
+          "cerus-flow",
+          "focus",
+          "rem"
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Designed by Athletes, for Athletes",
+        "text_size": "medium",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "performance",
+            "image": "shopify:\/\/shop_images\/performance.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "recovery",
+            "image": "shopify:\/\/shop_images\/7B2A3520_copy_9e80dc90-43b7-4d0c-aa62-3d2034a8386d.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "wellness",
+            "image": "shopify:\/\/shop_images\/wellness.jpg",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "press": {
+      "type": "press",
+      "blocks": {
+        "16644243327ba53d2a-0": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "- Jeff Evans, Founder and Co-Owner",
+            "content": "As a former D1 NCAA and Crossfit Games Athlete, I understand the importance of being drug free. None of the ingredients we use are on the current banned substance list created by the USADA & WADA organizations.",
+            "show_rating": false,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "16644243327ba53d2a-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "1688153930c5049edc": {
+      "type": "apps",
+      "blocks": {
+        "4097ea7f-be3d-4e08-8f70-ab19ed48f067": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1600,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "1",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#fafafa",
+            "starsColor": "",
+            "starsBackgroundColor": "#fafafa",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": "cerus-flow"
+          }
+        }
+      },
+      "block_order": [
+        "4097ea7f-be3d-4e08-8f70-ab19ed48f067"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": false,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "34d96d22-d8bb-4be7-b5a9-2c1f5f213424": {
+      "type": "media-grid",
+      "blocks": {
+        "1236f25f-53dc-4c63-8611-fb2685dc8fc5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7B2A2669.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "fa4757fa-3b50-495e-b44f-af25abb28683": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dubs_USED.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16132757225626__34d96d22-d8bb-4be7-b5a9-2c1f5f213424-1688161084014e7246-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7B2A8223.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16132757225626__34d96d22-d8bb-4be7-b5a9-2c1f5f213424-1688161084014e7246-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7B2A0343.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "e58535d3-53c2-45a2-9dbc-262711c6e489": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7B2A1483.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "aeb37a4c-4f4b-45a9-b7c5-af52e4f2dbbb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7B2A5707.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c7f75efd-61fc-4dc6-b023-52b78538a41b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7B2A4308.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "e88b6d05-f8e2-4eaf-8bdc-f61d5f8f39df": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mckenize_ttb_USED.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "1236f25f-53dc-4c63-8611-fb2685dc8fc5",
+        "fa4757fa-3b50-495e-b44f-af25abb28683",
+        "template--16132757225626__34d96d22-d8bb-4be7-b5a9-2c1f5f213424-1688161084014e7246-0",
+        "template--16132757225626__34d96d22-d8bb-4be7-b5a9-2c1f5f213424-1688161084014e7246-2",
+        "e58535d3-53c2-45a2-9dbc-262711c6e489",
+        "aeb37a4c-4f4b-45a9-b7c5-af52e4f2dbbb",
+        "c7f75efd-61fc-4dc6-b023-52b78538a41b",
+        "e88b6d05-f8e2-4eaf-8bdc-f61d5f8f39df"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": ""
+      }
+    },
+    "52bf25dd-95fc-4340-b028-dadf8ef8da62": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--16132757225626__52bf25dd-95fc-4340-b028-dadf8ef8da62-1688160998ea3c1c38-0": {
+          "type": "blog",
+          "settings": {
+            "blog": "news",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16132757225626__52bf25dd-95fc-4340-b028-dadf8ef8da62-1688160998ea3c1c38-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "f5994332-ddbc-4469-a0c5-96a1f9dd3970",
+    "32317cfa-d104-492d-941e-35dbb1479c27",
+    "scrolling-text",
+    "collection-list",
+    "press",
+    "1688153930c5049edc",
+    "34d96d22-d8bb-4be7-b5a9-2c1f5f213424",
+    "52bf25dd-95fc-4340-b028-dadf8ef8da62"
+  ]
+}

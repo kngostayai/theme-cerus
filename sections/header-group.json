@@ -1,0 +1,103 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "4597aaf4-cd10-43cf-8c76-0111c0c4abec": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "📦FLOW & FLOW PRO ORDERS SHIP JULY 24th📦",
+            "url": "shopify:\/\/products\/cerus-flow"
+          }
+        },
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "FREE SHIPPING FOR ALL ORDERS OVER $100",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "4597aaf4-cd10-43cf-8c76-0111c0c4abec",
+        "message"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "text_size": "text-xs",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 10,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "009368c3-0789-4822-88b4-86fc81136d63": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop",
+            "layout": "drawer",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/7b2a4730_9681f2f8-150d-4709-a3e3-5590ea0ad6f6.jpg",
+            "image_heading_1": "Supplements",
+            "image_link_1": "shopify:\/\/collections\/supplements",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/7B2A0643.jpg",
+            "image_heading_2": "Training Templates",
+            "image_link_2": "shopify:\/\/collections\/training-templates",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/CERUSSTATIC3.jpg",
+            "image_heading_3": "Gear",
+            "image_link_3": "shopify:\/\/collections\/cerus-apparel-gear",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "carousel",
+            "stretch_promo": false,
+            "drawer_link_image": "show"
+          }
+        }
+      },
+      "block_order": [
+        "009368c3-0789-4822-88b4-86fc81136d63"
+      ],
+      "custom_css": [
+        "nav li {font-weight: 700;}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify:\/\/shop_images\/c-perf-logo_black.svg",
+        "logo_max_width": 175,
+        "logo_mobile_max_width": 170,
+        "menu": "new-header-menu",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "click",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify:\/\/shop_images\/c-perf-logo_white.svg",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
