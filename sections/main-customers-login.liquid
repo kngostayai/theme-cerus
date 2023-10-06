@@ -95,10 +95,18 @@ LIQUID
             </div>
           {%- endform -%}
         </div>
+        <a href="/apps/retextion" class="rtxn_manage_subscriptions_passwordless_btn" style="margin-top:15px;display:block">Manage Subscriptions Without Password</a>
       </account-login>
     </div>
   </div>
 </div>
+
+<script>
+  setTimeout(()=> {
+      const rechargeWidget = document.querySelector('#rc_login')
+      rechargeWidget.remove()
+  }, 2100) 
+</script>  
 
 {% schema %}
 {

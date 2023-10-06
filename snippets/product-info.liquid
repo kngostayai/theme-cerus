@@ -355,3 +355,13 @@
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
+
+{% comment %}
+  HIDING RECHARGE SUBSCRIPTION WIDGET
+{% endcomment %}
+<script>
+  setTimeout(()=> {
+      const rechargeWidget = document.querySelector(`.rc-container-wrapper`)
+      rechargeWidget.remove()
+  }, 2100) 
+</script>  
