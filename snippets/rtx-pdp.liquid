@@ -305,7 +305,7 @@
       buyBox.labelOneTime = buyBox.form.querySelector('[for="purchaseTypeOneTime"]');
       buyBox.labelSubscription = buyBox.form.querySelector('[for="purchaseTypeSubscription"]');
 
-      console.log("byron",buyBox.variantSelectors);
+
 
       buyBox.cachedSellingPlanId = buyBox.sellingPlanSelector.value;
 
@@ -381,7 +381,6 @@
           strDiscount = '';
         }
         let strFullPrice = `${window.retextionApi.formatMoney(variant.price)}`;
-        console.log("Hit");
         discountLabels.forEach(dl => dl.textContent = strDiscount);
         fullPriceLabels.forEach(fp => fp.textContent = strFullPrice);
 
