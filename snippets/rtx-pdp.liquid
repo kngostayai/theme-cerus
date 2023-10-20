@@ -287,6 +287,7 @@
   </div>
 
   <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
     ((buyBoxes) => {
       const buyBox = {
         boxId: "{{ product.id }}-{{ section.id }}-{{ block.id }}"
@@ -295,14 +296,16 @@
       buyBox.product = {{ product | json }};
       buyBox.variantId = {{ currentVariant.id | json }};
       buyBox.root = document.querySelector(`[data-rtx-subscription-${buyBox.boxId}]`);
-      buyBox.form = buyBox.root.closest('form[action="/cart/add"]') || buyBox.root.closest('form') || document.querySelector('form[action="/cart/add"]') || document.documentElement;
+      buyBox.form = buyBox.root.closest('form.shopify-product-form[action="/cart/add"]') || buyBox.root.closest('form') || document.querySelector('form[action="/cart/add"]') || document.documentElement;
       buyBox.subscriptionBox = buyBox.root.querySelector('[data-retextion-subscription-box]');
       buyBox.sellingPlanSelector = buyBox.root.querySelector('[name="selling_plan"]');
       buyBox.quantitySelector = buyBox.form.querySelector('[name="quantity"]');
       buyBox.purchaseType = buyBox.form.querySelectorAll('[name="purchaseType"]');
-      buyBox.variantSelectors = buyBox.form.querySelectorAll('[name="id"]');
+      buyBox.variantSelectors = buyBox.form.querySelector('[name="id"]');
       buyBox.labelOneTime = buyBox.form.querySelector('[for="purchaseTypeOneTime"]');
       buyBox.labelSubscription = buyBox.form.querySelector('[for="purchaseTypeSubscription"]');
+
+      console.log("byron",buyBox.variantSelectors);
 
       buyBox.cachedSellingPlanId = buyBox.sellingPlanSelector.value;
 
@@ -378,6 +381,7 @@
           strDiscount = '';
         }
         let strFullPrice = `${window.retextionApi.formatMoney(variant.price)}`;
+        console.log("Hit");
         discountLabels.forEach(dl => dl.textContent = strDiscount);
         fullPriceLabels.forEach(fp => fp.textContent = strFullPrice);
 
@@ -401,44 +405,41 @@
         buyBox.updateSellingPlan();
       });
 
-      buyBox.variantSelectors.forEach(vs => {
-        vs.addEventListener('change', e => {
-          let newOptions = '';
-          buyBox.variantId = e.target.value;
-          const variant = buyBox.product.variants.find(v => v.id == buyBox.variantId);
+      buyBox.variantSelectors.addEventListener('change', e => {
+        let newOptions = '';
+        buyBox.variantId = e.target.value;
+        const variant = buyBox.product.variants.find(v => v.id == buyBox.variantId);
 
-          // Determine the selected option
-          let selectedPlanId = buyBox.getSellingPlanId();
-          if(!variant.selling_plan_allocations.some(spa => {
-            return spa.selling_plan_id == selectedPlanId;
-          })) {
-            if(variant.selling_plan_allocations.length) {
-              selectedPlanId = variant.selling_plan_allocations[0].selling_plan_id;
-            } else {
-              selectedPlanId = '';
-            }
+        // Determine the selected option
+        let selectedPlanId = buyBox.getSellingPlanId();
+        if(!variant.selling_plan_allocations.some(spa => {
+          return spa.selling_plan_id == selectedPlanId;
+        })) {
+          if(variant.selling_plan_allocations.length) {
+            selectedPlanId = variant.selling_plan_allocations[0].selling_plan_id;
+          } else {
+            selectedPlanId = '';
           }
+        }
 
-          // Generate new options
-          variant.selling_plan_allocations.forEach((spa,i) => {
-            const sellingGroup = boxProduct.selling_plan_groups.find(spg => spg.id === spa.selling_plan_group_id);
-            const sellingPlan = sellingGroup.selling_plans.find(sp => sp.id === spa.selling_plan_id);
+        // Generate new options
+        variant.selling_plan_allocations.forEach((spa,i) => {
+          const sellingGroup = buyBox.product.selling_plan_groups.find(spg => spg.id === spa.selling_plan_group_id);
+          const sellingPlan = sellingGroup.selling_plans.find(sp => sp.id === spa.selling_plan_id);
 
-            if(sellingGroup.app_id != {{ retextionAppId | json }}) return;
+          if(sellingGroup.app_id != {{ retextionAppId | json }}) return;
 
-            const opt = document.createElement('option');
-            if(sellingPlan.id == selectedPlanId) {
-              opt.setAttribute('selected', 'selected');
-            }
-            opt.value = sellingPlan.id;
-            opt.textContent = sellingPlan.name;
-            newOptions += opt.outerHTML;
-          });
-          
-          // Update select
-          elementSellingPlan.innerHTML = newOptions;
-          buyBox.updateSellingPlan();
+          const opt = document.createElement('option');
+          if(sellingPlan.id == selectedPlanId) {
+            opt.setAttribute('selected', 'selected');
+          }
+          opt.value = sellingPlan.id;
+          opt.textContent = sellingPlan.name;
+          newOptions += opt.outerHTML;
         });
+
+        // Update select
+        buyBox.updateSellingPlan();
       });
 
       document.body.addEventListener('click', e => {
@@ -488,5 +489,6 @@
         [buyBox.boxId]: buyBox
       });
     })((window.retextionBuyBox = {}));
+    });
   </script>
 {%- endif -%}
